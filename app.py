@@ -5,7 +5,7 @@ from selenium import webdriver
 try:
 	from urllib.request import urlopen
 except ImportError:
-    from urllib2 import urlopen
+    from urllib3 import urlopen
 
 import csv
 import sys
